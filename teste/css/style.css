@@ -1,0 +1,79 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(#d2b48c);
+}
+
+.poster {
+    width: 300px;
+    padding: 20px;
+    background-color: #3a3a32; /* Cor de fundo */
+    border: 10px solid #8a8a8a;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.308);
+    font-family: 'Special Elite', sans-serif;
+    text-align: center;
+    /* Efeito de 3D */
+    transform: perspective(500px) rotateX(0deg) rotateY(0deg);
+    transform-origin: center;
+  }
+  
+
+.poster {
+    border: 10px solid #0202025d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+    padding: 20px;
+    background-color: #4646445e;
+    font-family: 'Special Elite', sans-serif;
+    text-align: center;
+  }
+  
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.poster {
+    background: linear-gradient(135deg, #0707078e, #deb887);
+  }
+ 
+  .poster {
+    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
+  }
+    
+
+.imagens img {
+    width: 300px;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+}
+h1 {
+    margin-bottom: 0;
+}
+
+h2{
+    text-align: center;
+}
+h2{
+    margin-top: 0;
+}
+
+h3{
+    text-align: center;
+}
+h3{
+    margin-bottom: 0;
+}
+h4{
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+}
+h4{
+    margin-top: auto;
+}
+
