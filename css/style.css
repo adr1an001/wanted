@@ -1,0 +1,51 @@
+/* Estilos para centralizar o conteúdo dentro de main */
+main {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da tela */
+    background: linear-gradient(#d2b48c); /* Cor de fundo gradiente */
+}
+
+/* Estilização do pôster */
+.poster {
+    width: 300px;
+    padding: 20px;
+    background-color: #3a3a32;
+    border: 10px solid #8a8a8a;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    font-family: 'Special Elite', sans-serif;
+    text-align: center;
+    
+    /* Efeito de 3D */
+    transform: perspective(500px) rotateX(0deg) rotateY(0deg);
+    transform-origin: center;
+    
+    /* Estilo de borda com clip-path */
+    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
+    background: linear-gradient(135deg, #0707078e, #deb887); /* Novo gradiente */
+}
+
+/* Centraliza a imagem dentro da div .imagens */
+.imagens {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagens img {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Estilização dos títulos */
+h1, h2, h3, h4 {
+    text-align: center;
+    margin: 0;
+}
+
+h4 {
+    font-size: 30px;
+    margin-top: 10px; /* Espaço superior leve para h4 */
+}
